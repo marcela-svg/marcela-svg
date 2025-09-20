@@ -1,30 +1,12 @@
-## Hi there 👋
-
-:computer:  **Ingeniera de Sistemas**
-
-:pencil:  **Product Manager & Scrum Master - Cloudnonic**
-
-:eyeglasses: **Github Amateur**
-
-:travel: **Travel Lover**
-
-:Family: **Mi familia siempre esta en el primer lugar**
-
-### Contacto
-
-![Linkedin](https://img.shields.io/website?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmarcela-rodriguez-alvarez-mba-pm-po%2F)
-
-### Commit
-
-![GitHub commit activity](https://img.shields.io/github/commit-activity/t/elearnify/elearnify-wl-frontend)
-
 <!--
 **Marcela-Rodriguez-Alvarez/Marcela-Rodriguez-Alvarez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
 ## 👋 ¡Hola! Soy Marcela Rodríguez Álvarez
 
-**MBA | Project Manager & Scrum Master**
+:computer: **MBA | Project Manager & Scrum Master**
+
+:eyeglasses: **Github Amateur**
 
 ---
 
@@ -82,6 +64,5 @@
 - Aprender y aplicar nuevas herramientas de gestión y análisis de producto.
 
 ---
-
 
 > “Transformando necesidades en valor, estrategia en acción, ideas en productos reales.”
