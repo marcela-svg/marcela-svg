@@ -65,4 +65,10 @@
 
 ---
 
+### :zap: Actividad reciente
+<!--RECENT_ACTIVITY:start-->
+
+<!--RECENT_ACTIVITY:last_update-->
+
+
 > “Transformando necesidades en valor, estrategia en acción, ideas en productos reales.”
