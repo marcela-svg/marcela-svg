@@ -1,4 +1,4 @@
-name: Update README4
+name: Update README
 
 on:
   schedule:
@@ -12,11 +12,11 @@ jobs:
       contents: write
 
     steps:
-      # Checkout de tu repositorio
+      # Checkout del repo
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      # Usar la acción oficial (no tu usuario)
+      # Usa la acción oficial
       - name: Update GitHub activity in README
         uses: jamesgeorge007/github-activity-readme@v0.2.1
         with:
