@@ -65,10 +65,9 @@
 
 ---
 
-### :zap: Actividad reciente
-<!--RECENT_ACTIVITY:start-->
-
-<!--RECENT_ACTIVITY:last_update-->
+### ✨ Mi actividad reciente en GitHub
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 
 > “Transformando necesidades en valor, estrategia en acción, ideas en productos reales.”
