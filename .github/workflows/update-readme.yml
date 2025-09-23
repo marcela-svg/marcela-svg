@@ -12,14 +12,10 @@ jobs:
       contents: write
 
     steps:
-      # Checkout del repo
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      # Usa la acción oficial
       - name: Update GitHub activity in README
         uses: jamesgeorge007/github-activity-readme@v0.1.0
-
-        with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
