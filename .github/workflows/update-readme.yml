@@ -1,18 +1,24 @@
-name: Update README2
+name: Update README3
 
 on:
   schedule:
-    - cron: '* */12 * * *'
+    # Corre cada 12 horas
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
-  build:
+  update-readme:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - uses: actions/marcela-svg
-      - uses: jamesgeorge007/github-activity-marcela-svg
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Paso 1: clonar el repositorio
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      # Paso 2: ejecutar la acción que actualiza tu README
+      - name: Update GitHub activity in README
+        uses: marcela-svg/github-activity-readme@v0.2.1
+        with:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
